@@ -1,7 +1,7 @@
 'use server'
 
 // Make sure this URL is correct and the webhook is set up in n8n
-const N8N_WEBHOOK_URL = 'https://primary-production-26324.up.railway.app/webhook-test/55b6bcf5-21f7-4694-af80-ca870c2bbbd4'
+const N8N_WEBHOOK_URL = 'https://primary-production-26324.up.railway.app/webhook/55b6bcf5-21f7-4694-af80-ca870c2bbbd4'
 
 export async function analyzeConversation(message) {
   try {
